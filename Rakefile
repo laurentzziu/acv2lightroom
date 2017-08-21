@@ -16,6 +16,11 @@ rescue LoadError => error
   puts error.message
 end
 
+# https://stackoverflow.com/a/23779044
+task :console do
+  exec "pry -r acv2lrtemplate -I ./lib"
+end
+
 desc "Run code quality checks"
 task code_quality: %i[git_cop reek rubocop]
 
