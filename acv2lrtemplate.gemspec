@@ -30,6 +30,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "reek", "~> 4.7"
   spec.add_development_dependency "rubocop", "~> 0.49"
 
+  spec.add_dependency "curver", "~> 0.0.2"
+
   spec.files = Dir["lib/**/*"]
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
   spec.require_paths = ["lib"]
