@@ -1,13 +1,12 @@
 # frozen_string_literal: true
 
-require "core_ext/string"
+%w(object string).each do |file|
+  require "core_ext/#{file}"
+end
 
-require "acv2lrtemplate/identity"
-require "acv2lrtemplate/parser"
-require "acv2lrtemplate/validator"
-require "acv2lrtemplate/errors"
-require "acv2lrtemplate/json2lrtemplate"
-require "acv2lrtemplate/exporter"
+%w(identity parser validator errors json2lrtemplate exporter).each do |file|
+  require "acv2lrtemplate/#{file}"
+end
 
 module Acv2lrtemplate
   def self.convert!(filename, export_name = nil)

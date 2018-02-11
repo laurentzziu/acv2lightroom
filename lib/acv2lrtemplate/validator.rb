@@ -12,6 +12,10 @@ module Acv2lrtemplate
       validate
     end
 
+    def invalid?
+      !valid?
+    end
+
     def validate
       validate_presence
       validate_extension
@@ -23,13 +27,13 @@ module Acv2lrtemplate
 
     def validate_extension
       unless ACCEPTED_FORMATS.include?(File.extname(@filename))
-        fail Acv2lrtemplate::Errors::Validator::InvalidFileExtension
+        raise Acv2lrtemplate::Errors::Validator::InvalidFileExtension
       end
     end
 
     def validate_presence
       unless File.exist?(@filename)
-        fail Acv2lrtemplate::Errors::Validator::NoPresentFile
+        raise Acv2lrtemplate::Errors::Validator::NoPresentFile
       end
     end
   end

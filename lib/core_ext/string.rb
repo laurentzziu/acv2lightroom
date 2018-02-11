@@ -12,6 +12,6 @@ class String
 
   # https://stackoverflow.com/a/27737214
   def titleize
-    self.split(" ").map{|word| word.capitalize}.join(" ")
+    self.split(" ").map{ |word| word.capitalize }.join(" ")
   end
 end

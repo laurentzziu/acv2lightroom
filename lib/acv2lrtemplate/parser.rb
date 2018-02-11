@@ -8,7 +8,7 @@ module Acv2lrtemplate
     attr_accessor :curves
 
     def initialize(filename)
-      fail Acv2lrtemplate::Errors::Validator::NoFileProvided if filename.nil?
+      raise Acv2lrtemplate::Errors::Validator::NoFileProvided if filename.blank?
       @acv_file = filename
       validate
       parse

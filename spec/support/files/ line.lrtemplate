@@ -1,0 +1,2 @@
+--This file was generated automatically by the Acv2lrtemplate Ruby gem.Copyright at Florinel Gorgan. https://floringorgan.com
+s = {id = "7C22E8EC-757D-4B46-8C7E-1067003A0E95",internalName = "S Line",title = "S Line",type = "Develop",value = {uuid = "44784227-21EA-40F3-A993-0E7794E4380A",settings = {ToneCurvePV2012 = {0,0,81,67,168,185,255,255,},ToneCurvePV2012Blue = {0,0,81,68,179,188,255,255,},ToneCurvePV2012Green = {0,0,84,78,178,190,255,255,},ToneCurvePV2012Red = {14,0,84,95,184,184,242,255,},ToneCurveName2012 = "S Line",},},version = 0,}

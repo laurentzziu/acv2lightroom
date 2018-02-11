@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Acv2lrtemplate
   class JSON2lrtemplate
     attr_reader :json_string
