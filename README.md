@@ -14,7 +14,7 @@ Converts Adobe Photoshop Curves (`.acv` files) to Adobe Lightroom Presets (`.lrt
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'acv2lightroom'
+gem 'acv2lrtemplate'
 ```
 
 And then execute:
@@ -23,7 +23,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install acv2lightroom
+    $ gem install acv2lrtemplate
 
 ## Usage
 
