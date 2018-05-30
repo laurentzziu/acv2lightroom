@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/acv2lightroom.svg)](https://badge.fury.io/rb/permitted_attributes)
+[![Gem Version](https://badge.fury.io/rb/acv2lrtemplate.svg)](https://badge.fury.io/rb/acv2lrtemplate)
 [![Build Status](https://travis-ci.org/laurentzziu/acv2lightroom.svg?branch=master)](https://travis-ci.org/laurentzziu/acv2lightroom)
 
 # ACV2Lightroom
