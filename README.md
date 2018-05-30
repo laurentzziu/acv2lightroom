@@ -27,6 +27,17 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
+require 'acv2lrtemplate'
+
+parsed_filed = Acv2lrtemplate::Parser.new("path/to/your/curves/file.acv")
+
+# This will create a .lrtemplate file with the name specified in the thirt parameter (optional).
+# By default, the input file name is used to generate the .lrtemplate file name
+
+Acv2lrtemplate::Exporter.new(parsed_filed.curves, parsed_filed.acv_file, "New Name").export!
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
