@@ -26,8 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry-state", "~> 0.1"
   spec.add_development_dependency "rspec", "~> 3.6"
   spec.add_development_dependency "guard-rspec", "~> 4.7"
-  spec.add_development_dependency "git-cop", "~> 1.6"
-  spec.add_development_dependency "reek", "~> 4.7"
   spec.add_development_dependency "rubocop", "~> 0.49"
 
   spec.add_dependency "curver", "~> 0.0.2"
