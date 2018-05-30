@@ -1,89 +1,46 @@
-# Acv2lrtemplate
+[![Gem Version](https://badge.fury.io/rb/acv2lightroom.svg)](https://badge.fury.io/rb/permitted_attributes)
+[![Build Status](https://travis-ci.org/laurentzziu/acv2lightroom.svg?branch=master)](https://travis-ci.org/laurentzziu/acv2lightroom)
 
-[![Gem Version](https://badge.fury.io/rb/acv2lrtemplate.svg)](http://badge.fury.io/rb/acv2lrtemplate)
+# ACV2Lightroom
 
-<!-- Tocer[start]: Auto-generated, don't remove. -->
+Easily convert `.acv` (Photoshop Curves) to `.lrtemplate` (Adobe Lightroom Preset) files.
 
-## Table of Contents
+## Description
 
-  - [Features](#features)
-  - [Screencasts](#screencasts)
-  - [Requirements](#requirements)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [Tests](#tests)
-  - [Versioning](#versioning)
-  - [Code of Conduct](#code-of-conduct)
-  - [Contributions](#contributions)
-  - [License](#license)
-  - [History](#history)
-  - [Credits](#credits)
+Converts Adobe Photoshop Curves (`.acv` files) to Adobe Lightroom Presets (`.lrtemplate` files).
 
-<!-- Tocer[finish]: Auto-generated, don't remove. -->
+## Installation
 
-## Features
+Add this line to your application's Gemfile:
 
-## Screencasts
+```ruby
+gem 'acv2lightroom'
+```
 
-## Requirements
+And then execute:
 
-0. [Ruby 2.4.0](https://www.ruby-lang.org)
+    $ bundle
 
-## Setup
+Or install it yourself as:
 
-For a secure install, type the following (recommended):
-
-    gem cert --add <(curl --location --silent /gem-public.pem)
-    gem install acv2lrtemplate --trust-policy MediumSecurity
-
-NOTE: A HighSecurity trust policy would be best but MediumSecurity enables signed gem verification
-while allowing the installation of unsigned dependencies since they are beyond the scope of this
-gem.
-
-For an insecure install, type the following (not recommended):
-
-    gem install acv2lrtemplate
-
-Add the following to your Gemfile:
-
-    gem "acv2lrtemplate"
+    $ gem install acv2lightroom
 
 ## Usage
 
-## Tests
+## Development
 
-To test, run:
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-    bundle exec rake
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
-## Versioning
+## Contributing
 
-Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
-
-- Major (X.y.z) - Incremented for any backwards incompatible public API changes.
-- Minor (x.Y.z) - Incremented for new, backwards compatible, public API enhancements/fixes.
-- Patch (x.y.Z) - Incremented for small, backwards compatible, bug fixes.
-
-## Code of Conduct
-
-Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By
-participating in this project you agree to abide by its terms.
-
-## Contributions
-
-Read [CONTRIBUTING](CONTRIBUTING.md) for details.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/laurentzziu/acv2lightroom](https://github.com/laurentzziu/acv2lightroom). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
-Copyright (c) 2017 []().
-Read [LICENSE](LICENSE.md) for details.
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## History
+## Code of Conduct
 
-Read [CHANGES](CHANGES.md) for details.
-Built with [Gemsmith](https://github.com/bkuhlmann/gemsmith).
-
-## Credits
-
-Developed by [Florinel Gorgan]() at
-[]().
+Everyone interacting in the PermittedAttributes project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/laurentzziu/acv2lightroom/blob/master/CODE_OF_CONDUCT.md).
