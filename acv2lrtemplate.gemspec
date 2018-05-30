@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["Florinel Gorgan"]
   spec.email = ["florin@floringorgan.com"]
-  spec.homepage = "https://github.com/laurentzziu/permitted_attributes"
+  spec.homepage = "https://github.com/laurentzziu/acv2lrtemplate"
   spec.summary = "Easily convert .acv (Photoshop Curves) to .lrtemplate (Adobe Lightroom Preset) files."
   spec.license = "MIT"
 
