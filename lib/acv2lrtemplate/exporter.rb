@@ -6,9 +6,6 @@ require 'json'
 COPYRIGHT = "This file was generated automatically by the Acv2lrtemplate Ruby gem." \
             "Copyright at Florinel Gorgan. https://floringorgan.com"
 
-# parsed = Acv2lrtemplate::Parser.new(File.join(Acv2lrtemplate.spec, 'support', 'files', 's_line.acv'))
-# Acv2lrtemplate::Exporter.new(parsed.curves, parsed.acv_file, "S Line").export!
-
 module Acv2lrtemplate
   class Exporter
     TITLES = %i(ToneCurvePV2012 ToneCurvePV2012Blue
