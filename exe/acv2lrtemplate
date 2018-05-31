@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'acv2lrtemplate'
+
+Acv2lrtemplate::CLI.start(ARGV)
