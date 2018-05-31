@@ -3,12 +3,15 @@
 module Acv2lrtemplate
   module Errors
     class Base < StandardError
+      attr_reader :message
+
       def self.default_message
         "There was an error."
       end
 
       def initialize(message = nil)
-        super(message || self.class.default_message)
+        @message = message || self.class.default_message
+        super(@message)
       end
     end
   end
