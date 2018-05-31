@@ -3,7 +3,7 @@
 require 'securerandom'
 require 'json'
 
-COPYRIGHT = "This file was generated automatically by the Acv2lrtemplate Ruby gem." \
+COPYRIGHT = "This file was generated automatically by the ACV2LRTemplate Ruby gem. (https://github.com/laurentzziu/acv2lrtemplate) " \
             "Copyright at Florinel Gorgan. https://floringorgan.com"
 
 module Acv2lrtemplate
