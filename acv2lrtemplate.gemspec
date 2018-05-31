@@ -29,8 +29,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop", "~> 0.49"
 
   spec.add_dependency "curver", "~> 0.0.2"
+  spec.add_dependency "thor", '~> 0.20'
+  spec.add_dependency "paint", "~> 2.0", ">= 2.0.1"
 
   spec.files = Dir["lib/**/*"]
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
   spec.require_paths = ["lib"]
+  spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
 end

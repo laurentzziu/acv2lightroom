@@ -27,15 +27,31 @@ Or install it yourself as:
 
 ## Usage
 
+#### From console (CLI)
+
+```bash
+# convert .acv file to .lrtemplate
+acv2lrtemplate convert your_curves_file.acv
+
+# provide optional name for the .lrtemplate file name
+acv2lrtemplate convert your_curves_file.acv --name Amazing
+
+# use the help command for more information
+acv2lrtemplate help
+# or
+acv2lrtemplate help convert
+```
+
+#### In a Ruby script
+
 ```ruby
 require 'acv2lrtemplate'
 
-parsed_filed = Acv2lrtemplate::Parser.new("path/to/your/curves/file.acv")
-
-# This will create a .lrtemplate file with the name specified in the thirt parameter (optional).
+# This will create a .lrtemplate file with the name specified in the second parameter (optional).
 # By default, the input file name is used to generate the .lrtemplate file name
 
-Acv2lrtemplate::Exporter.new(parsed_filed.curves, parsed_filed.acv_file, "New Name").export!
+file_path = "path/to/your/curves/file.acv"
+Acv2lrtemplate.convert!(file_path, "New File name")
 ```
 
 ## Development

@@ -8,11 +8,11 @@ module Acv2lrtemplate
     end
 
     def self.label
-      "Acv2lrtemplate"
+      "ACV2LRTemplate"
     end
 
     def self.version
-      "0.1.0"
+      "0.2.0"
     end
 
     def self.version_label

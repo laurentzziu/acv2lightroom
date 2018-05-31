@@ -4,7 +4,7 @@
   require "core_ext/#{file}"
 end
 
-%w(identity parser validator errors json2lrtemplate exporter).each do |file|
+%w(identity parser validator errors json2lrtemplate exporter cli).each do |file|
   require "acv2lrtemplate/#{file}"
 end
 
