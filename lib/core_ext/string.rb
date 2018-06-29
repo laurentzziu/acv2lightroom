@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class String
   # https://apidock.com/rails/String/camelize
   def camelize(uppercase_first_letter = true)

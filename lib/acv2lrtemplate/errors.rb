@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative "errors/base"
 
 %w(invalid_file_extension no_present_file no_file_provided).each do |file|
