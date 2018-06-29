@@ -8,8 +8,8 @@ COPYRIGHT = "This file was generated automatically by the ACV2LRTemplate Ruby ge
 
 module Acv2lrtemplate
   class Exporter
-    TITLES = %i(ToneCurvePV2012 ToneCurvePV2012Blue
-                ToneCurvePV2012Green ToneCurvePV2012Red).freeze
+    TITLES = %i(ToneCurvePV2012 ToneCurvePV2012Red
+                ToneCurvePV2012Green ToneCurvePV2012Blue).freeze
 
     attr_reader :curves, :file_name, :name, :exported_file
 
